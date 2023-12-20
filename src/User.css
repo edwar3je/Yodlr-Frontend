@@ -1,0 +1,53 @@
+.user-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.user-information-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    height: 210px;
+    width: 80%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.user-name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+.user-email-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+.user-state-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+label {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    margin-left: 10px;
+}

@@ -1,0 +1,32 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 20px;
+}
+
+.not-found-message {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.redirect-home-button {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.redirect-home-button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.redirect-home-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}

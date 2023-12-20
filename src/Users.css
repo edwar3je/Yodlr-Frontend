@@ -1,0 +1,47 @@
+.user-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 20px;
+}
+
+.user-page-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.user-cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1em;
+    margin-top: 10px;
+}
+
+.users-not-found-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.users-not-found-message {
+    font-size: 20px;
+}
+
+.register-button {
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.register-link {
+    font-size: 20px;
+    text-decoration: none;
+}
